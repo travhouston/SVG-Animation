@@ -1,1 +1,3 @@
-# techdegree-project-8
+Techdegree Project 8
+
+SVG Animation
