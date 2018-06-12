@@ -1,0 +1,185 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+  background-image: url(../svgs/background.svg);
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39ADD1;
+  font-weight: 700;
+}
+
+header {
+  padding-top: 50px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #BA8058;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav li {
+  padding-right: 35px;
+}
+
+li a:hover {
+  color: #BA8058;
+}
+
+.logo-text {
+  display: none;
+}
+
+.sm-logo-text {
+  display: block;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  color:#EAAA7F;
+  letter-spacing: .1em;
+}
+
+.home:hover .heart-nav,
+.visit:hover .location-nav,
+.contact:hover .contact-nav {
+  fill: #BA8058;
+}
+
+.corgis {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.corgis li {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.corgis span {
+  padding-right: 30px;
+  color:#BA8058;
+}
+
+/* Corgi Colors */
+
+.body {
+  fill: currentColor;
+}
+
+.nose_and_eyes {
+  fill:#2D3339;
+}
+
+.brows {
+  fill:#DA8058;
+}
+
+.white {
+  fill:#FBFEFF;
+}
+
+.sable-corgi {
+  color:#BA8058;
+}
+
+.fawn-corgi {
+  color:#F4C6A6;
+}
+
+.red-corgi {
+  color:#7C4709;
+}
+
+.stone-corgi {
+  color:#52595F;
+}
+
+/* Transitions */
+
+.nav li {
+  transition: .3s ease-in;
+}
+
+.nav li:hover {
+  transform: scale(1.2);
+}
+
+.logo-paw {
+  transform-origin: 50% 50%;
+  transition: 1s ease-in;
+}
+
+.paw-print-logo:hover .logo-paw{
+  transform: rotate(720deg);
+}
+
+
+/* Media Queries */
+
+@media (min-width: 425px) {
+
+  .sm-logo-text {
+    display: none;
+  }
+
+  .logo-text {
+    display: block;
+  }
+
+}
