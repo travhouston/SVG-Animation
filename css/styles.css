@@ -162,7 +162,7 @@ li a:hover {
 
 .logo-paw {
   transform-origin: 50% 50%;
-  transition: 1s ease-in;
+  transition: 1s ease-in-out;
 }
 
 .paw-print-logo:hover .logo-paw{
